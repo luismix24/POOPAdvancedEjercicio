@@ -1,3 +1,8 @@
+# Eclipse files
+.project
+.classpath
+.settings/
+
 # Build and Release Folders
 bin-debug/
 bin-release/
