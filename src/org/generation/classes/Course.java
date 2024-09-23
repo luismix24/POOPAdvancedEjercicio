@@ -35,14 +35,14 @@ public class Course {
 
 		public void setProfessorName(String professorName) {
 			this.professorName = professorName;
-		}
+		}//setProfessorName
 
 		@Override
 		public String toString() {
-			return "Course [name=" + name + ", credits=" + credits + ", professorName=" + professorName
-					+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
-					+ "]";
-		}
+			return "Course [name=" + name + ", credits=" + credits + ", professorName=" + professorName + "]";
+		}//toString
+
+		
 	    
 	    
 

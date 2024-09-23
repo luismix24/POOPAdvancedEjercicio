@@ -9,8 +9,7 @@ public class Student {
 	 private String name;
      private String id;
      private int age;
-
-	    public final List<Course> courseList = new ArrayList<>();
+     private final List<Course> courseList = new ArrayList<>();
 
 	    public Student( String name, String id, int age){
 	        this.name = name;
@@ -44,10 +43,10 @@ public class Student {
 
 		@Override
 		public String toString() {
-			return "Student [name=" + name + ", id=" + id + ", age=" + age + ", courseList=" + courseList
-					+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
-					+ "]";
-		}
+			return "Student [name=" + name + ", id=" + id + ", age=" + age + ", courseList=" + courseList + "]";
+		}//toString
+
+		
 	    
 		
 	    
